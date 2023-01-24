@@ -45,6 +45,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 /* Advice number container */
@@ -54,14 +55,14 @@ body {
     align-items: center;
     justify-content: center;
     margin: 15px 0 0px 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: var(--primary-accent);
 }
 
 .advice-number-title {
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
 }
 
 /* Advice Container */
@@ -81,3 +82,62 @@ body {
 }
 
 /* Border Container */
+
+.border-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    /* height: 50px; */
+    /* background-color: var(--primary-background); */
+}
+
+.horizontal-bar-1 {
+    width: 200px;
+    height: .5px;
+    background-color: var(--primary-text);
+    margin: 0 10px 0 0;
+}
+
+.vertical-bar-1 {
+    width: 5px;
+    height: 20px;
+    background-color: var(--primary-text);
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+}
+
+.vertical-bar-2 {
+    width: 5px;
+    height: 20px;
+    background-color: var(--primary-text);
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+}
+
+.horizontal-bar-2 {
+    width: 200px;
+    height: .5px;
+    background-color: var(--primary-text);
+    margin: 0 0 0 0;
+}
+
+/* Generate Button */
+
+.generate-button {
+    position: absolute;
+    bottom: 185px;
+    padding: 15px 18px;
+    border-radius: 50%;
+    background-color: var(--primary-accent);
+}
+
+.generate-button i {
+    font-size: 2.4rem;
+    color: var(--primary-background);
+}
+
+.generate-button:hover {
+    cursor: pointer;
+    background-color: var(--primary-text);
+}
