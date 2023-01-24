@@ -1,0 +1,83 @@
+/* Variable for Colors */
+:root {
+    --primary-text: #D3EAF2;
+    --primary-accent: #56FDAB;
+    --primary-background: #202632;
+    --secondary-background: #313A49;
+}
+
+/* Reset for the CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+}
+
+/* For Rem unit */
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main container */
+.main-container {
+    background-color: var(--primary-background);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--secondary-background);
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Advice number container */
+
+.advice-number-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 0px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-accent);
+}
+
+.advice-number-title {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+/* Advice Container */
+
+.advice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.advice-content {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+/* Border Container */
