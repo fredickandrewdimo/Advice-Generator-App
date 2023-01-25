@@ -21,7 +21,6 @@ async function getAdvice() {
     );
     // Parse the response data as JSON
     const data = await response.json();
-    console.log(data);
 
     // Extract the advice text from the data
     const advice = data.slip.advice;

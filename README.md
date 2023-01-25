@@ -1,1 +1,40 @@
-# Advice-Generator-App
+# Advice Generator App
+
+The Advice Generator App is a motivational tool that generates uplifting advice through a sleek and modern interface. Built with HTML, CSS, and JavaScript, the app's design was inspired by a Front-end Mentor Challenge. It utilizes the Fetch API to retrieve advice from an external Advice API, providing users with a new and unique piece of advice with every click of the button.
+
+The app is user-friendly and easy to use, making it a perfect companion for anyone in need of a little inspiration and motivation.
+
+<br>
+
+### Tech Stack
+
+<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
+
+<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />
+
+<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
+
+<br>
+<br>
+
+### Visit the App
+
+https://fredickandrewdimo.github.io/Advice-Generator-App/
+
+<br>
+<br>
+
+### Key Takeaways
+
+The development of the Advice Generator App has provided me with valuable experience and knowledge in various JavaScript concepts such as the Document Object Model (DOM), Asynchronous JavaScript with Async/Await, the Fetch API, working with JavaScript objects, handling events, and creating functions. Additionally, I have had the opportunity to test my skills in implementing a user-friendly interface using HTML and CSS.
+
+This project was particularly valuable as it was my first time working with an API and learning the concepts of Async and the Fetch API.
+
+<br>
+<br>
+
+### Preview
+
+<img align="left" alt="#" width="400px" src="/Users/andrew/Developer/Portfolio/Advice-Generator-App/images/preview-1.png" style="padding-right:20px;"/>
+
+<img align="left" alt="#" width="400px" src="/Users/andrew/Developer/Portfolio/Advice-Generator-App/images/preview-2.png" />
