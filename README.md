@@ -22,7 +22,6 @@ The app is user-friendly and easy to use, making it a perfect companion for anyo
 https://fredickandrewdimo.github.io/Advice-Generator-App/
 
 <br>
-<br>
 
 ### Key Takeaways
 
@@ -30,7 +29,6 @@ The development of the Advice Generator App has provided me with valuable experi
 
 This project was particularly valuable as it was my first time working with an API and learning the concepts of Async and the Fetch API.
 
-<br>
 <br>
 
 ### Preview
